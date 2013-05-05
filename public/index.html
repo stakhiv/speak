@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<title>Chat</title>
+		<meta charset='utf-8'/>
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+<body>
+	<label for="name">Channel</label><input type="text" id="channel" /><br>
+	<label for="name">Name</label><input type="text" id="name" />
+	<button id="connect">Connect</button>
+	<div style="width: 500px; height: 300px;" id="messages"></div>
+	<label for="message">Message</label><input type="text" id="message" />
+	<button id="send">Send</button>
+	<script src="client.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "speak",
+  "version": "0.0.1",
+  "description": "Message board which saves data on client side",
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.x",
+    "socket.io": "*",
+    "zmq": "*"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": "",
+  "author": "Jura Stakhiv",
+  "license": "BSD"
+}
